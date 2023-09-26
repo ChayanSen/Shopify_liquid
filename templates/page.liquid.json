@@ -6,9 +6,19 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1dae54cd-66df-449f-ade5-ce616b1cffa3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{page.title}}\n<br>\n<p style=\"background-color:powderblue;\">I am studing Liquid myself<\/p>\n\n{% if page.title == \"liquid1\" %}\nYes, the page is liquid\n{% else %}\nNo, this is not liquid\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1dae54cd-66df-449f-ade5-ce616b1cffa3"
   ]
 }
